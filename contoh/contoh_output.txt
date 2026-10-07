@@ -1,0 +1,66 @@
+
+===== IDENTITAS ======
+User      : root
+Host      : kali
+Kernel    : 7.1.5+kali-amd64
+
+===== Resource ======
+Ram	:
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       1.3Gi       728Mi        10Mi       2.0Gi       2.4Gi
+Swap:          3.9Gi          0B       3.9Gi
+Disk	:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       912G   18G  848G   3% /
+
+===== User dengan Login Shell ======
+root
+putra
+
+===== Jaringan ======
+IPv4 Wifi	: 192.168.x.x/24
+IPv4 LAN	: 
+Gateway	: 192.168.x.1
+DNS	: 192.168.x.1
+
+===== Port Listening ======
+LISTENING PORT : 
+Netid State  Recv-Q Send-Q Local Address:Port Peer Address:PortProcess
+tcp   LISTEN 0      128          0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=xxxxx,fd=6))
+tcp   LISTEN 0      128             [::]:22           [::]:*    users:(("sshd",pid=xxxxx,fd=7))
+
+===== File SUID ======
+SUID :
+/usr/bin/rsh-redone-rlogin
+/usr/bin/kismet_cap_nrf_52840
+/usr/bin/kismet_cap_ubertooth_one
+/usr/bin/mount
+/usr/bin/kismet_cap_nrf_mousejack
+/usr/bin/pkexec
+/usr/bin/kismet_cap_ti_cc_2531
+/usr/bin/su
+/usr/bin/kismet_cap_ti_cc_2540
+/usr/bin/gpasswd
+/usr/bin/rsh-redone-rsh
+/usr/bin/passwd
+/usr/bin/kismet_cap_nrf_51822
+/usr/bin/kismet_cap_linux_wifi
+/usr/bin/ntfs-3g
+/usr/bin/umount
+/usr/bin/chsh
+/usr/bin/sudo
+/usr/bin/kismet_cap_rz_killerbee
+/usr/bin/fusermount3
+/usr/bin/kismet_cap_hak5_wifi_coconut
+/usr/bin/kismet_cap_linux_bluetooth
+/usr/bin/newgrp
+/usr/bin/chfn
+/usr/bin/kismet_cap_nxp_kw41z
+/usr/sbin/mount.cifs
+/usr/sbin/mount.nfs
+/usr/sbin/pppd
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/lib/xorg/Xorg.wrap
+/usr/lib/mysql/plugin/auth_pam_tool_dir/auth_pam_tool
+/usr/lib/openssh/ssh-keysign
+/usr/lib/chromium/chrome-sandbox
